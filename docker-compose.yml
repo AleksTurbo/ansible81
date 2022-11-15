@@ -11,3 +11,9 @@ services:
     container_name: ubuntu
     restart: always
     tty: true
+
+  fedora:
+    image: pycontribs/fedora
+    container_name: fedora
+    restart: always
+    tty: true
